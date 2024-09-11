@@ -1,0 +1,10 @@
+C:\Users\chuev\Source\Repos\Comp_Graph_2\Lab_2\bin\Debug\Lab_2.exe.config
+C:\Users\chuev\Source\Repos\Comp_Graph_2\Lab_2\bin\Debug\Lab_2.exe
+C:\Users\chuev\Source\Repos\Comp_Graph_2\Lab_2\bin\Debug\Lab_2.pdb
+C:\Users\chuev\Source\Repos\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.csproj.AssemblyReference.cache
+C:\Users\chuev\Source\Repos\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Form1.resources
+C:\Users\chuev\Source\Repos\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Properties.Resources.resources
+C:\Users\chuev\Source\Repos\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.csproj.GenerateResource.cache
+C:\Users\chuev\Source\Repos\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache
+C:\Users\chuev\Source\Repos\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.exe
+C:\Users\chuev\Source\Repos\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.pdb
