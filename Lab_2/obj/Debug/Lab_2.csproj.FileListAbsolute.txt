@@ -19,3 +19,16 @@ C:\Users\chuev\source\repos\lab_2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.csproj.Core
 C:\Users\chuev\source\repos\lab_2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.exe
 C:\Users\chuev\source\repos\lab_2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.pdb
 C:\Users\chuev\source\repos\lab_2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Task3.resources
+C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\bin\Debug\Lab_2.exe.config
+C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\bin\Debug\Lab_2.exe
+C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\bin\Debug\Lab_2.pdb
+C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.csproj.AssemblyReference.cache
+C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Form1.resources
+C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Properties.Resources.resources
+C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Task2.resources
+C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Task3.resources
+C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.csproj.GenerateResource.cache
+C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache
+C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.exe
+C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.pdb
