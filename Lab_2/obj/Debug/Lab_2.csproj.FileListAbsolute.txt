@@ -32,3 +32,16 @@ C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.csproj.Generate
 C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache
 C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.exe
 C:\Users\Карина\Desktop\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.pdb
+C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.csproj.AssemblyReference.cache
+C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Form1.resources
+C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Properties.Resources.resources
+C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Task2.resources
+C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Task3.resources
+C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.csproj.GenerateResource.cache
+C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache
+C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.exe
+C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.pdb
+C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\bin\Debug\Lab_2.exe.config
+C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\bin\Debug\Lab_2.exe
+C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\bin\Debug\Lab_2.pdb
+C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Task1.resources
