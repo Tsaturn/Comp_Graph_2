@@ -20,8 +20,7 @@ namespace Lab_2
 
         private void LoadImage()
         {
-            // Загрузка изображения из ресурсов
-            originalImage = Properties.Resources.img1; // Убедитесь, что это имя ресурса
+            originalImage = Properties.Resources.img1; 
             pictureBoxOriginal.Image = originalImage;
         }
 
@@ -29,19 +28,15 @@ namespace Lab_2
         {
             if (originalImage != null)
             {
-                // Преобразование изображения в оттенки серого по двум формулами
                 grayImage1 = ConvertToGrayscale(originalImage, 1);
                 grayImage2 = ConvertToGrayscale(originalImage, 2);
 
-                // Вычисление разности между двумя полутоновыми изображениями
                 diffImage = CalculateDifference(grayImage1, grayImage2);
 
-                // Отображение изображений
                 pictureBoxGray1.Image = grayImage1;
                 pictureBoxGray2.Image = grayImage2;
                 pictureBoxDiff.Image = diffImage;
 
-                // Построение гистограмм
                 BuildHistogram(grayImage1, pictureBoxHist1);
                 BuildHistogram(grayImage2, pictureBoxHist2);
                 BuildHistogram(diffImage, pictureBoxHistDiff);

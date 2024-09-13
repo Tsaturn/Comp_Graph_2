@@ -65,6 +65,7 @@
             this.pictureBoxOriginal.Location = new System.Drawing.Point(10, 50);
             this.pictureBoxOriginal.Name = "pictureBoxOriginal";
             this.pictureBoxOriginal.Size = new System.Drawing.Size(200, 200);
+            this.pictureBoxOriginal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;  // Zoom mode
             this.pictureBoxOriginal.TabIndex = 1;
             this.pictureBoxOriginal.TabStop = false;
 
@@ -75,6 +76,7 @@
             this.pictureBoxGray1.Location = new System.Drawing.Point(220, 50);
             this.pictureBoxGray1.Name = "pictureBoxGray1";
             this.pictureBoxGray1.Size = new System.Drawing.Size(200, 200);
+            this.pictureBoxGray1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;  // Zoom mode
             this.pictureBoxGray1.TabIndex = 2;
             this.pictureBoxGray1.TabStop = false;
 
@@ -85,6 +87,7 @@
             this.pictureBoxGray2.Location = new System.Drawing.Point(430, 50);
             this.pictureBoxGray2.Name = "pictureBoxGray2";
             this.pictureBoxGray2.Size = new System.Drawing.Size(200, 200);
+            this.pictureBoxGray2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;  // Zoom mode
             this.pictureBoxGray2.TabIndex = 3;
             this.pictureBoxGray2.TabStop = false;
 
@@ -95,6 +98,7 @@
             this.pictureBoxDiff.Location = new System.Drawing.Point(640, 50);
             this.pictureBoxDiff.Name = "pictureBoxDiff";
             this.pictureBoxDiff.Size = new System.Drawing.Size(200, 200);
+            this.pictureBoxDiff.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;  // Zoom mode
             this.pictureBoxDiff.TabIndex = 4;
             this.pictureBoxDiff.TabStop = false;
 
