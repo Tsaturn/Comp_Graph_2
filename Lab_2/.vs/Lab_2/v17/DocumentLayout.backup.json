@@ -3,27 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|c:\\users\\chuev\\source\\repos\\lab_2\\comp_graph_2\\lab_2\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|solutionrelative:task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|c:\\users\\chuev\\source\\repos\\lab_2\\comp_graph_2\\lab_2\\fastbitmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|solutionrelative:fastbitmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|c:\\users\\chuev\\source\\repos\\lab_2\\comp_graph_2\\lab_2\\task3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|solutionrelative:task3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|solutionrelative:task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|solutionrelative:task3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|c:\\users\\chuev\\source\\repos\\lab_2\\comp_graph_2\\lab_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|c:\\users\\chuev\\source\\repos\\lab_2\\comp_graph_2\\lab_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\task3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|solutionrelative:task3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\task2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|solutionrelative:task2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C43DB44-A928-4E63-863E-C98F8295380D}|Lab_2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,83 +38,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Task3.cs",
-              "DocumentMoniker": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task3.cs",
-              "RelativeDocumentMoniker": "Task3.cs",
-              "ToolTip": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task3.cs",
-              "RelativeToolTip": "Task3.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAswFsAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T11:25:47.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FastBitmap.cs",
-              "DocumentMoniker": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\FastBitmap.cs",
-              "RelativeDocumentMoniker": "FastBitmap.cs",
-              "ToolTip": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\FastBitmap.cs",
-              "RelativeToolTip": "FastBitmap.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAA4wAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T11:49:50.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Task3.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task3.Designer.cs",
-              "RelativeDocumentMoniker": "Task3.Designer.cs",
-              "ToolTip": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task3.Designer.cs",
-              "RelativeToolTip": "Task3.Designer.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T11:25:12.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Task3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task3.cs",
-              "RelativeDocumentMoniker": "Task3.cs",
-              "ToolTip": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Task3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T15:29:10.371Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAASwCAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T15:25:26.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T15:24:33.884Z",
+              "WhenOpened": "2024-09-16T19:12:25.622Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task3.cs",
+              "DocumentMoniker": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task3.cs",
+              "RelativeDocumentMoniker": "Task3.cs",
+              "ToolTip": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task3.cs",
+              "RelativeToolTip": "Task3.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAuwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T10:49:36.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Task3.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task3.Designer.cs",
+              "RelativeDocumentMoniker": "Task3.Designer.cs",
+              "ToolTip": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task3.Designer.cs",
+              "RelativeToolTip": "Task3.Designer.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAYwMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T10:47:29.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task3.cs",
+              "RelativeDocumentMoniker": "Task3.cs",
+              "ToolTip": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Task3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T10:47:37.987Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Task2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task2.Designer.cs",
+              "RelativeDocumentMoniker": "Task2.Designer.cs",
+              "ToolTip": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Task2.Designer.cs",
+              "RelativeToolTip": "Task2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T18:40:41.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T15:43:14.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\chuev\\source\\repos\\lab_2\\Comp_Graph_2\\Lab_2\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T15:43:17.116Z"
             }
           ]
         }

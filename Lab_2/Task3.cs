@@ -8,37 +8,32 @@ namespace Lab_2
     public partial class Task3 : Form
     {
         private Bitmap originalBitmap;
-        public double hueAdjustment = 0, saturationAdjustment = 1, valueAdjustment = 1;
+        public double hueAdjustment, saturationAdjustment, valueAdjustment;
 
         public Task3()
         {
             InitializeComponent();
+            Load += Task3_Load;
         }
 
         private void Task3_Load(object sender, EventArgs e)
         {
-            originalBitmap = (Bitmap)pictureBox1.Image; 
+            originalBitmap = (Bitmap)pictureBox1.Image;
         }
 
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
-            hueAdjustment = trackBar1.Value; 
-            label4.Text = hueAdjustment.ToString();
-            ChangePicture();
+            hueAdjustment = trackBar1.Value;
         }
 
         private void trackBar2_Scroll(object sender, EventArgs e)
         {
-            saturationAdjustment = trackBar2.Value; 
-            label5.Text = trackBar2.Value.ToString();
-            ChangePicture();
+            saturationAdjustment = trackBar2.Value;
         }
 
         private void trackBar3_Scroll(object sender, EventArgs e)
         {
-            valueAdjustment = trackBar3.Value; 
-            label6.Text = trackBar3.Value.ToString();
-            ChangePicture();
+            valueAdjustment = trackBar3.Value;
         }
 
         private void ChangePicture()
@@ -83,9 +78,17 @@ namespace Lab_2
                         // Вычисление Value (Яркость)
                         value = max;
 
-                        hue = hueAdjustment; 
-                        saturation = saturationAdjustment / 100.0;
-                        value = valueAdjustment / 100.0; 
+                        hue += hueAdjustment;
+                        if (hue < 0)
+                            hue += 360;
+                        else hue %= 360.0;
+
+                        saturation += saturationAdjustment / 100f;
+                        value += valueAdjustment / 100f;
+
+                        saturation = Math.Max(0, Math.Min(1, saturation));
+                        value = Math.Max(0, Math.Min(1, value));
+
 
                         Color newColor = ColorFromHSV(hue, saturation, value);
                         fastBitmap[x, y] = newColor;
@@ -93,7 +96,12 @@ namespace Lab_2
                 }
             }
 
-            pictureBox1.Image = bitmap; 
+            pictureBox1.Image = bitmap;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ChangePicture();
         }
 
         // Вспомогательная функция для конвертации HSV в RGB
@@ -142,5 +150,18 @@ namespace Lab_2
                 pictureBox1.Image.Save(saveFileDialog.FileName);
             }
         }
+
+        private void Task3_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Hide();
+        }
+
+        private void Task3_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Hide();
+        }
+
+
+
     }
 }

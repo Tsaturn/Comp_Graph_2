@@ -45,3 +45,5 @@ C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерн�
 C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\bin\Debug\Lab_2.exe
 C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\bin\Debug\Lab_2.pdb
 C:\Users\anast\OneDrive\Рабочий стол\4 курс\компьютерная графика\lab2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Task1.resources
+C:\Users\chuev\source\repos\lab_2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Task1.resources
+C:\Users\chuev\source\repos\lab_2\Comp_Graph_2\Lab_2\obj\Debug\Lab_2.Task2.resources
