@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 namespace Lab_2
@@ -20,11 +22,12 @@ namespace Lab_2
 
         private void LoadImage()
         {
-            originalImage = Properties.Resources.img1; 
+            originalImage = Properties.Resources.img11;
             pictureBoxOriginal.Image = originalImage;
+            ConvertImages();
         }
 
-        private void btnConvert_Click(object sender, EventArgs e)
+        private void ConvertImages()
         {
             if (originalImage != null)
             {
@@ -39,7 +42,6 @@ namespace Lab_2
 
                 BuildHistogram(grayImage1, pictureBoxHist1);
                 BuildHistogram(grayImage2, pictureBoxHist2);
-                BuildHistogram(diffImage, pictureBoxHistDiff);
             }
         }
 
@@ -99,23 +101,30 @@ namespace Lab_2
             {
                 for (int x = 0; x < image.Width; x++)
                 {
-                    int intensity = image.GetPixel(x, y).R;
+                    Color pixelColor = image.GetPixel(x, y);
+                    int intensity = pixelColor.R;
                     histogram[intensity]++;
                 }
             }
 
             int histWidth = 256;
-            int histHeight = 100;
+            int histHeight = 120;
             Bitmap histImage = new Bitmap(histWidth, histHeight);
 
             int max = histogram.Max();
+            if (max == 0) max = 1; 
 
-            for (int x = 0; x < histWidth; x++)
+            using (Graphics g = Graphics.FromImage(histImage))
             {
-                int histValue = (int)((histogram[x] / (float)max) * histHeight);
-                for (int y = histHeight - 1; y >= histHeight - histValue; y--)
+                g.Clear(Color.White);
+
+                for (int x = 0; x < histWidth; x++)
                 {
-                    histImage.SetPixel(x, y, Color.Black);
+                    int histValue = (int)((histogram[x] / (float)max) * histHeight);
+                    using (Pen pen = new Pen(Color.Black))
+                    {
+                        g.DrawLine(pen, x, histHeight - 1, x, histHeight - histValue);
+                    }
                 }
             }
 

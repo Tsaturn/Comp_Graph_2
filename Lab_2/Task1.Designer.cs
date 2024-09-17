@@ -28,146 +28,108 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnConvert = new System.Windows.Forms.Button();
             this.pictureBoxOriginal = new System.Windows.Forms.PictureBox();
             this.pictureBoxGray1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxGray2 = new System.Windows.Forms.PictureBox();
             this.pictureBoxDiff = new System.Windows.Forms.PictureBox();
             this.pictureBoxHist1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxHist2 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxHistDiff = new System.Windows.Forms.PictureBox();
-
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOriginal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGray1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGray2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDiff)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHist1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHist2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHistDiff)).BeginInit();
-
             this.SuspendLayout();
-
-            // 
-            // btnConvert
-            // 
-            this.btnConvert.Location = new System.Drawing.Point(10, 10);
-            this.btnConvert.Name = "btnConvert";
-            this.btnConvert.Size = new System.Drawing.Size(100, 30);
-            this.btnConvert.TabIndex = 0;
-            this.btnConvert.Text = "Convert";
-            this.btnConvert.UseVisualStyleBackColor = true;
-            this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
-
             // 
             // pictureBoxOriginal
             // 
             this.pictureBoxOriginal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxOriginal.Location = new System.Drawing.Point(10, 50);
+            this.pictureBoxOriginal.Location = new System.Drawing.Point(12, 12);
             this.pictureBoxOriginal.Name = "pictureBoxOriginal";
-            this.pictureBoxOriginal.Size = new System.Drawing.Size(200, 200);
-            this.pictureBoxOriginal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;  // Zoom mode
+            this.pictureBoxOriginal.Size = new System.Drawing.Size(200, 164);
+            this.pictureBoxOriginal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxOriginal.TabIndex = 1;
             this.pictureBoxOriginal.TabStop = false;
-
             // 
             // pictureBoxGray1
             // 
             this.pictureBoxGray1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxGray1.Location = new System.Drawing.Point(220, 50);
+            this.pictureBoxGray1.Location = new System.Drawing.Point(218, 12);
             this.pictureBoxGray1.Name = "pictureBoxGray1";
-            this.pictureBoxGray1.Size = new System.Drawing.Size(200, 200);
-            this.pictureBoxGray1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;  // Zoom mode
+            this.pictureBoxGray1.Size = new System.Drawing.Size(200, 164);
+            this.pictureBoxGray1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxGray1.TabIndex = 2;
             this.pictureBoxGray1.TabStop = false;
-
             // 
             // pictureBoxGray2
             // 
             this.pictureBoxGray2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxGray2.Location = new System.Drawing.Point(430, 50);
+            this.pictureBoxGray2.Location = new System.Drawing.Point(424, 12);
             this.pictureBoxGray2.Name = "pictureBoxGray2";
-            this.pictureBoxGray2.Size = new System.Drawing.Size(200, 200);
-            this.pictureBoxGray2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;  // Zoom mode
+            this.pictureBoxGray2.Size = new System.Drawing.Size(200, 164);
+            this.pictureBoxGray2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxGray2.TabIndex = 3;
             this.pictureBoxGray2.TabStop = false;
-
             // 
             // pictureBoxDiff
             // 
             this.pictureBoxDiff.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxDiff.Location = new System.Drawing.Point(640, 50);
+            this.pictureBoxDiff.Location = new System.Drawing.Point(630, 12);
             this.pictureBoxDiff.Name = "pictureBoxDiff";
-            this.pictureBoxDiff.Size = new System.Drawing.Size(200, 200);
-            this.pictureBoxDiff.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;  // Zoom mode
+            this.pictureBoxDiff.Size = new System.Drawing.Size(200, 164);
+            this.pictureBoxDiff.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxDiff.TabIndex = 4;
             this.pictureBoxDiff.TabStop = false;
-
             // 
             // pictureBoxHist1
             // 
             this.pictureBoxHist1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxHist1.Location = new System.Drawing.Point(220, 260);
+            this.pictureBoxHist1.Location = new System.Drawing.Point(218, 182);
             this.pictureBoxHist1.Name = "pictureBoxHist1";
-            this.pictureBoxHist1.Size = new System.Drawing.Size(200, 100);
+            this.pictureBoxHist1.Size = new System.Drawing.Size(200, 186);
             this.pictureBoxHist1.TabIndex = 5;
             this.pictureBoxHist1.TabStop = false;
-
             // 
             // pictureBoxHist2
             // 
             this.pictureBoxHist2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxHist2.Location = new System.Drawing.Point(430, 260);
+            this.pictureBoxHist2.Location = new System.Drawing.Point(424, 182);
             this.pictureBoxHist2.Name = "pictureBoxHist2";
-            this.pictureBoxHist2.Size = new System.Drawing.Size(200, 100);
+            this.pictureBoxHist2.Size = new System.Drawing.Size(200, 186);
             this.pictureBoxHist2.TabIndex = 6;
             this.pictureBoxHist2.TabStop = false;
-
-            // 
-            // pictureBoxHistDiff
-            // 
-            this.pictureBoxHistDiff.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxHistDiff.Location = new System.Drawing.Point(640, 260);
-            this.pictureBoxHistDiff.Name = "pictureBoxHistDiff";
-            this.pictureBoxHistDiff.Size = new System.Drawing.Size(200, 100);
-            this.pictureBoxHistDiff.TabIndex = 7;
-            this.pictureBoxHistDiff.TabStop = false;
-
             // 
             // Task1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(860, 380);
-            this.Controls.Add(this.btnConvert);
             this.Controls.Add(this.pictureBoxOriginal);
             this.Controls.Add(this.pictureBoxGray1);
             this.Controls.Add(this.pictureBoxGray2);
             this.Controls.Add(this.pictureBoxDiff);
             this.Controls.Add(this.pictureBoxHist1);
             this.Controls.Add(this.pictureBoxHist2);
-            this.Controls.Add(this.pictureBoxHistDiff);
             this.Name = "Task1";
             this.Text = "Task1";
-
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOriginal)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGray1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGray2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDiff)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHist1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHist2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHistDiff)).EndInit();
             this.ResumeLayout(false);
+
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnConvert;
         private System.Windows.Forms.PictureBox pictureBoxOriginal;
         private System.Windows.Forms.PictureBox pictureBoxGray1;
         private System.Windows.Forms.PictureBox pictureBoxGray2;
         private System.Windows.Forms.PictureBox pictureBoxDiff;
         private System.Windows.Forms.PictureBox pictureBoxHist1;
-        private System.Windows.Forms.PictureBox pictureBoxHist2;
-        private System.Windows.Forms.PictureBox pictureBoxHistDiff;
+        private System.Windows.Forms.PictureBox pictureBoxHist2;    
     }
 }
