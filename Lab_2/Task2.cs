@@ -35,9 +35,9 @@ namespace Lab_2
         // Настройка chart'ов
         private void SetupCharts()
         {
-            chartRed.Series[0] = (new Series { Color = Color.Red, ChartType = SeriesChartType.Column, Name = "Red Channel" });
-            chartGreen.Series[0] = new Series { Color = Color.Green, ChartType = SeriesChartType.Column, Name = "Green Channel" };
-            chartBlue.Series[0] = (new Series { Color = Color.Blue, ChartType = SeriesChartType.Column, Name = "Blue Channel" });
+            chartRed.Series[0] = (new Series { Color = Color.Red, ChartType = SeriesChartType.Column, Name = "R" });
+            chartGreen.Series[0] = new Series { Color = Color.Green, ChartType = SeriesChartType.Column, Name = "G" };
+            chartBlue.Series[0] = (new Series { Color = Color.Blue, ChartType = SeriesChartType.Column, Name = "B" });
         }
 
         // обработка изображения
