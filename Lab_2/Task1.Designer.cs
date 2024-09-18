@@ -44,73 +44,75 @@
             // 
             // pictureBoxOriginal
             // 
-            this.pictureBoxOriginal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxOriginal.Location = new System.Drawing.Point(12, 12);
+            this.pictureBoxOriginal.Image = global::Lab_2.Properties.Resources.img11;
+            this.pictureBoxOriginal.Location = new System.Drawing.Point(21, 11);
+            this.pictureBoxOriginal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxOriginal.Name = "pictureBoxOriginal";
-            this.pictureBoxOriginal.Size = new System.Drawing.Size(200, 164);
+            this.pictureBoxOriginal.Size = new System.Drawing.Size(356, 239);
             this.pictureBoxOriginal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxOriginal.TabIndex = 1;
             this.pictureBoxOriginal.TabStop = false;
             // 
             // pictureBoxGray1
             // 
-            this.pictureBoxGray1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxGray1.Location = new System.Drawing.Point(218, 12);
+            this.pictureBoxGray1.Location = new System.Drawing.Point(401, 11);
+            this.pictureBoxGray1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxGray1.Name = "pictureBoxGray1";
-            this.pictureBoxGray1.Size = new System.Drawing.Size(200, 164);
+            this.pictureBoxGray1.Size = new System.Drawing.Size(356, 239);
             this.pictureBoxGray1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxGray1.TabIndex = 2;
             this.pictureBoxGray1.TabStop = false;
             // 
             // pictureBoxGray2
             // 
-            this.pictureBoxGray2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxGray2.Location = new System.Drawing.Point(424, 12);
+            this.pictureBoxGray2.Location = new System.Drawing.Point(778, 11);
+            this.pictureBoxGray2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxGray2.Name = "pictureBoxGray2";
-            this.pictureBoxGray2.Size = new System.Drawing.Size(200, 164);
+            this.pictureBoxGray2.Size = new System.Drawing.Size(356, 239);
             this.pictureBoxGray2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxGray2.TabIndex = 3;
             this.pictureBoxGray2.TabStop = false;
             // 
             // pictureBoxDiff
             // 
-            this.pictureBoxDiff.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxDiff.Location = new System.Drawing.Point(630, 12);
+            this.pictureBoxDiff.Location = new System.Drawing.Point(21, 280);
+            this.pictureBoxDiff.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxDiff.Name = "pictureBoxDiff";
-            this.pictureBoxDiff.Size = new System.Drawing.Size(200, 164);
+            this.pictureBoxDiff.Size = new System.Drawing.Size(356, 239);
             this.pictureBoxDiff.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxDiff.TabIndex = 4;
             this.pictureBoxDiff.TabStop = false;
             // 
             // pictureBoxHist1
             // 
-            this.pictureBoxHist1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxHist1.Location = new System.Drawing.Point(218, 182);
+            this.pictureBoxHist1.Location = new System.Drawing.Point(401, 280);
+            this.pictureBoxHist1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxHist1.Name = "pictureBoxHist1";
-            this.pictureBoxHist1.Size = new System.Drawing.Size(200, 186);
+            this.pictureBoxHist1.Size = new System.Drawing.Size(356, 239);
             this.pictureBoxHist1.TabIndex = 5;
             this.pictureBoxHist1.TabStop = false;
             // 
             // pictureBoxHist2
             // 
-            this.pictureBoxHist2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxHist2.Location = new System.Drawing.Point(424, 182);
+            this.pictureBoxHist2.Location = new System.Drawing.Point(778, 280);
+            this.pictureBoxHist2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxHist2.Name = "pictureBoxHist2";
-            this.pictureBoxHist2.Size = new System.Drawing.Size(200, 186);
+            this.pictureBoxHist2.Size = new System.Drawing.Size(356, 239);
             this.pictureBoxHist2.TabIndex = 6;
             this.pictureBoxHist2.TabStop = false;
             // 
             // Task1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(860, 380);
+            this.ClientSize = new System.Drawing.Size(1160, 540);
             this.Controls.Add(this.pictureBoxOriginal);
             this.Controls.Add(this.pictureBoxGray1);
             this.Controls.Add(this.pictureBoxGray2);
             this.Controls.Add(this.pictureBoxDiff);
             this.Controls.Add(this.pictureBoxHist1);
             this.Controls.Add(this.pictureBoxHist2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Task1";
             this.Text = "Task1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOriginal)).EndInit();

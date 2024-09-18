@@ -108,7 +108,7 @@ namespace Lab_2
             }
 
             int histWidth = 256;
-            int histHeight = 120;
+            int histHeight = 190;
             Bitmap histImage = new Bitmap(histWidth, histHeight);
 
             int max = histogram.Max();

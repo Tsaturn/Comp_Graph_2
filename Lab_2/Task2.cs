@@ -23,7 +23,7 @@ namespace Lab_2
 
         private void Task2_Load(object sender, EventArgs e)
         {
-            originalImage = (Bitmap)pictureBox.Image;
+            originalImage = (Bitmap)Properties.Resources.img11;
             // изображения для каждого канала 
             redChannel = new Bitmap(originalImage.Width, originalImage.Height);
             greenChannel = new Bitmap(originalImage.Width, originalImage.Height);

@@ -37,63 +37,21 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.pictureBox = new System.Windows.Forms.PictureBox();
-            this.pictureBoxRed = new System.Windows.Forms.PictureBox();
-            this.pictureBoxGreen = new System.Windows.Forms.PictureBox();
-            this.pictureBoxBlue = new System.Windows.Forms.PictureBox();
             this.chartRed = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartGreen = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartBlue = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRed)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGreen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBlue)).BeginInit();
+            this.pictureBox = new System.Windows.Forms.PictureBox();
+            this.pictureBoxBlue = new System.Windows.Forms.PictureBox();
+            this.pictureBoxRed = new System.Windows.Forms.PictureBox();
+            this.pictureBoxGreen = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.chartRed)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartGreen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartBlue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBlue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGreen)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox
-            // 
-            this.pictureBox.Image = global::Lab_2.Properties.Resources.img1;
-            this.pictureBox.Location = new System.Drawing.Point(11, 11);
-            this.pictureBox.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(300, 353);
-            this.pictureBox.TabIndex = 2;
-            this.pictureBox.TabStop = false;
-            // 
-            // pictureBoxRed
-            // 
-            this.pictureBoxRed.Image = global::Lab_2.Properties.Resources.img1;
-            this.pictureBoxRed.Location = new System.Drawing.Point(355, 11);
-            this.pictureBoxRed.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBoxRed.Name = "pictureBoxRed";
-            this.pictureBoxRed.Size = new System.Drawing.Size(300, 353);
-            this.pictureBoxRed.TabIndex = 3;
-            this.pictureBoxRed.TabStop = false;
-            // 
-            // pictureBoxGreen
-            // 
-            this.pictureBoxGreen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.pictureBoxGreen.Image = global::Lab_2.Properties.Resources.img1;
-            this.pictureBoxGreen.Location = new System.Drawing.Point(11, 382);
-            this.pictureBoxGreen.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBoxGreen.Name = "pictureBoxGreen";
-            this.pictureBoxGreen.Size = new System.Drawing.Size(300, 353);
-            this.pictureBoxGreen.TabIndex = 4;
-            this.pictureBoxGreen.TabStop = false;
-            // 
-            // pictureBoxBlue
-            // 
-            this.pictureBoxBlue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.pictureBoxBlue.Image = global::Lab_2.Properties.Resources.img1;
-            this.pictureBoxBlue.Location = new System.Drawing.Point(355, 382);
-            this.pictureBoxBlue.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBoxBlue.Name = "pictureBoxBlue";
-            this.pictureBoxBlue.Size = new System.Drawing.Size(300, 353);
-            this.pictureBoxBlue.TabIndex = 5;
-            this.pictureBoxBlue.TabStop = false;
             // 
             // chartRed
             // 
@@ -146,42 +104,87 @@
             this.chartBlue.TabIndex = 8;
             this.chartBlue.Text = "chart3";
             // 
+            // pictureBox
+            // 
+            this.pictureBox.Image = global::Lab_2.Properties.Resources.img11;
+            this.pictureBox.Location = new System.Drawing.Point(11, 2);
+            this.pictureBox.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox.Name = "pictureBox";
+            this.pictureBox.Size = new System.Drawing.Size(313, 319);
+            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox.TabIndex = 9;
+            this.pictureBox.TabStop = false;
+            // 
+            // pictureBoxBlue
+            // 
+            this.pictureBoxBlue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pictureBoxBlue.Image = global::Lab_2.Properties.Resources.img11;
+            this.pictureBoxBlue.Location = new System.Drawing.Point(11, 416);
+            this.pictureBoxBlue.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBoxBlue.Name = "pictureBoxBlue";
+            this.pictureBoxBlue.Size = new System.Drawing.Size(313, 319);
+            this.pictureBoxBlue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxBlue.TabIndex = 10;
+            this.pictureBoxBlue.TabStop = false;
+            // 
+            // pictureBoxRed
+            // 
+            this.pictureBoxRed.Image = global::Lab_2.Properties.Resources.img11;
+            this.pictureBoxRed.Location = new System.Drawing.Point(357, 2);
+            this.pictureBoxRed.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBoxRed.Name = "pictureBoxRed";
+            this.pictureBoxRed.Size = new System.Drawing.Size(313, 319);
+            this.pictureBoxRed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxRed.TabIndex = 11;
+            this.pictureBoxRed.TabStop = false;
+            // 
+            // pictureBoxGreen
+            // 
+            this.pictureBoxGreen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pictureBoxGreen.Image = global::Lab_2.Properties.Resources.img11;
+            this.pictureBoxGreen.Location = new System.Drawing.Point(357, 416);
+            this.pictureBoxGreen.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBoxGreen.Name = "pictureBoxGreen";
+            this.pictureBoxGreen.Size = new System.Drawing.Size(313, 319);
+            this.pictureBoxGreen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxGreen.TabIndex = 12;
+            this.pictureBoxGreen.TabStop = false;
+            // 
             // Task2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1725, 746);
+            this.Controls.Add(this.pictureBoxGreen);
+            this.Controls.Add(this.pictureBoxRed);
+            this.Controls.Add(this.pictureBoxBlue);
+            this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.chartBlue);
             this.Controls.Add(this.chartGreen);
             this.Controls.Add(this.chartRed);
-            this.Controls.Add(this.pictureBoxBlue);
-            this.Controls.Add(this.pictureBoxGreen);
-            this.Controls.Add(this.pictureBoxRed);
-            this.Controls.Add(this.pictureBox);
             this.Name = "Task2";
             this.Text = "Task2";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Task2_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Task2_FormClosed);
             this.Load += new System.EventHandler(this.Task2_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRed)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGreen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBlue)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartRed)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartGreen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartBlue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBlue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGreen)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox;
-        private System.Windows.Forms.PictureBox pictureBoxRed;
-        private System.Windows.Forms.PictureBox pictureBoxGreen;
-        private System.Windows.Forms.PictureBox pictureBoxBlue;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartRed;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartGreen;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartBlue;
+        private System.Windows.Forms.PictureBox pictureBox;
+        private System.Windows.Forms.PictureBox pictureBoxBlue;
+        private System.Windows.Forms.PictureBox pictureBoxRed;
+        private System.Windows.Forms.PictureBox pictureBoxGreen;
     }
 }
